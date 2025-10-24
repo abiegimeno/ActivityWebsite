@@ -1,0 +1,136 @@
+nav button{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.babaw{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+li :hover{
+  background-color: pink;
+}
+body{
+  background-color: rgb(241, 233, 223);
+}
+.personal{
+  margin: 30px 20px 20px 30px;
+  padding: 160px;
+  text-align: center;
+  font-size: larger;
+  box-shadow: 5px 20px 25px rgb(79, 212, 214);
+  border-radius: 20px;
+  border-style: ridge;
+  background: url(img/Nature.jpg);
+    
+}
+.personal h2{
+    text-align: center;
+}
+.about{
+  text-align: center;
+  padding: 100px ;
+  margin: 30px 20px 20px 30px;
+  font-size: larger;
+  box-shadow: 5px 20px 25px rgb(79, 212, 214);
+  border-radius: 15px;
+  border-style: ridge;
+  background: url(img/Nature.jpg);
+}
+.contact-container{
+  text-align: center;
+  padding: 100px ;
+  margin: 30px 20px 20px 30px;
+  font-size: larger;
+  box-shadow: 5px 20px 25px rgb(79, 212, 214);
+  border-radius: 15px;
+  border-style: ridge;
+  background: url(img/Nature.jpg);
+}
+.contact-container i {
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #2d3436;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.1);
+  background: #74b9ff;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.facebook {
+  background: #1877f2;
+  color: white;
+}
+.facebook:hover {
+  background: #0b5ed7;
+}
+label {
+  font-size: 10px;
+  margin-top: 10px;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+
+.habits{
+  background: url(img/Nature.jpg);
+}
+.habits{
+  margin: 30px 20px 20px 30px;
+  padding: 40px 20px 20px 40px;
+  text-align: center;
+  font-size: larger;
+  box-shadow: 5px 20px 25px rgb(79, 212, 214);
+  border-radius: 15px;
+  border-style: ridge;
+  
+}
+.box-image{
+  width: 70%;
+  height: 350px;
+  margin: 50px 200px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.box-image img{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid white;
+  transition: all ease-in-out 0.5s;
+}
+.box-image img:hover{
+  width: 40%;
+}
+
+h3{
+  text-align: center;
+}
